@@ -1,0 +1,23 @@
+.flexContainer{
+    height:100vh;
+    border:1px solid red;
+    margin:10px;
+    display:flex;
+    gjustify-content: center; 
+    /* align-items: center;
+    flex-direction:row-reverse;
+    flex-wrap: wrap; */
+}
+.flexitem{
+    width:150px;
+    height:150px;
+    background-color: red;
+    border:2px solid black;
+    color:white;
+    font-weight:700;
+
+}
+.flextitems{
+    order:1;
+
+}

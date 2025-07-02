@@ -1,0 +1,54 @@
+
+.header {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background-color: aliceblue;
+  gap: 40px;                
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.mini {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.but {
+  border-radius: 25px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #1a73e8;
+  color: white;
+
+}
+
+.but:hover {
+  background-color: #1558b0;
+}
+
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+}
+
+
+.main-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
