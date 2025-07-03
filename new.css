@@ -1,23 +1,26 @@
-.flexContainer{
-    height:100vh;
-    border:1px solid red;
-    margin:10px;
-    display:flex;
-    gjustify-content: center; 
-    /* align-items: center;
-    flex-direction:row-reverse;
-    flex-wrap: wrap; */
+body {
+  /* margin: 0; */
+  background: #d2b48c; /* light brown like your screenshot */
+  font-family: Arial, sans-serif;
 }
-.flexitem{
-    width:150px;
-    height:150px;
-    background-color: red;
-    border:2px solid black;
-    color:white;
-    font-weight:700;
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   gap: 20px; 
+   padding: 40px; 
+  background: steelblue;
+  grid-template-rows:100px 200px 100px;
 }
-.flextitems{
-    order:1;
 
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.number{
+    display:grid;
+    grid-template-rows:100px 100px;
 }
